@@ -4,7 +4,7 @@ import java.sql.*;
 
 public class connect_reiziger {
     public static void main(String[] args) {
-        try (Connection connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/ovchip", "postgres", "bluun123")) {
+        try (Connection connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/ovchip", "postgres", "*****")) {
             System.out.println("Verbonden met database!");
             Statement statement = connection.createStatement();
 
